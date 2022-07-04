@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.sec {
+    display: flex;
+}
+
+img {
+    height: 600px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 1500;
+}
+
+.orange {
+    color: orangered;
+}
+
+.sec1-div1 {
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.sec1-div2 {
+    margin-right: 3%;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    color: white;
+    padding: 16px 30px;
+    border-radius: 40px;
+}
+
+.p1 {
+    margin-bottom: 60px;
+    color: rgb(85, 85, 85);
+}
+
+.header {
+    color: rgb(85, 85, 85);
+}
