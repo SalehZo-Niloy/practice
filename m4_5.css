@@ -2,6 +2,8 @@ body {
     font-family: 'Lato', sans-serif;
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .half-width {
@@ -12,13 +14,14 @@ body {
     display: flex;
 }
 
-img {
+div img {
     height: 600px;
 }
 
-h1 {
+.big-h {
     font-size: 60px;
-    font-weight: 1500;
+    margin: 0;
+    padding: 0;
 }
 
 .orange {
@@ -43,11 +46,98 @@ a {
     border-radius: 40px;
 }
 
-.p1 {
+.ppp {
     margin-bottom: 60px;
     color: rgb(85, 85, 85);
+    line-height: 1.6;
 }
 
 .header {
     color: rgb(85, 85, 85);
+}
+
+.first {
+    margin-bottom: 100px;
+}
+
+.sec2-div1 {
+    margin-left: 5%;
+}
+
+.sec2-div2 {
+    margin-top: 80px;
+    margin-left: 10%;
+
+}
+
+.small-h {
+    font-size: 40px;
+    font-weight: 1500;
+    margin: 0;
+}
+
+.second {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    /*background-position-x: -5em;*/
+    background-size: auto;
+    margin-bottom: 100px;
+}
+
+.third {
+    text-align: center;
+    margin: 0;
+}
+
+.recipe {
+    padding: 2.5%;
+    padding-bottom: 0;
+    box-shadow: 5px 5px 30px grey;
+    border-radius: 10px;
+    width: 35%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.recipe img {
+    height: 350px;
+    border-radius: 30px;
+    width: 450px;
+
+}
+
+.fourth {
+    margin-bottom: 100px;
+}
+
+.fifth {
+    box-shadow: 5px 5px 20px grey;
+    margin: 1em 5em;
+    border-radius: 8px;
+    padding: 1% 1% 2% 1%;
+}
+
+.fifth div {
+    width: 20%;
+    margin: 1px auto;
+    padding-left: 7%;
+    padding-top: 0;
+}
+
+.fifth div p {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(9, 9, 41);
+    text-align: center;
+    height: 250px;
+    color: white;
+}
+
+footer h2 {
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
